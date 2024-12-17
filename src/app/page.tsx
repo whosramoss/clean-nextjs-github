@@ -69,7 +69,7 @@ export default function HomePage() {
       <SectionEvents />
       <SectionSearch />
       <Content.Box className="col-span-12 ">
-        <Icon className="rounded-full mx-auto flex items-center" width={"50"} height={"50"} />
+        <Icon className="rounded-full mx-auto flex items-center mix-blend-difference" width={"50"} height={"50"} />
       </Content.Box>
     </Content.Root>
   );
