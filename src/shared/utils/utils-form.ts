@@ -8,4 +8,10 @@ export default class UtilsForm {
     const value = data[nameRef];
     return value.toString();
   }
+
+  static setEmptyValueByInputRef(value: React.RefObject<HTMLInputElement>) {
+    if (value.current) {
+      value.current.value = "";
+    }
+  }
 }
