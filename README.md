@@ -73,10 +73,9 @@ Following the Clean Architecture principles, we separate our project into 4 laye
 
 You can explore the entire data search process, layer by layer, through the graph below:
 
-<a href="https://github.com/whosramoss/clean-nextjs-github/blob/public/clean-arch.png">
-  <img alt="clean-nextjs-github" src="https://github.com/whosramoss/clean-nextjs-github/blob/main/public/clean-arch.png" />
+<a href="https://github.com/whosramoss/clean-nextjs-github/blob/main/public/clean-arch.png">
+  <img alt="clean-nextjs-github" src="./public/clean-arch.png" />
 </a>
-
 
 ## Overhead Structure View
 - [src](./src/)
