@@ -26,7 +26,7 @@
   body {
     @apply overflow-x-hidden;
   }
-  
+
   .text-default{
     @apply text-xl leading-snug dark:text-zinc-400 text-black;
   }
@@ -38,4 +38,9 @@
 
 ::-webkit-scrollbar {
   width: 0px;
+}
+
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
 }
