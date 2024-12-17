@@ -27,6 +27,13 @@
     @apply overflow-x-hidden;
   }
   
+  .text-default{
+    @apply text-xl leading-snug dark:text-zinc-400 text-black;
+  }
+
+  .text-title {
+    @apply text-6xl leading-tight font-medium text-black;
+  }
 }
 
 ::-webkit-scrollbar {
