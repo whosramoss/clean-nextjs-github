@@ -3,6 +3,11 @@ import React from "react";
 import { Icon } from "src/shared/ui/icon";
 import { Content } from "src/shared/ui/content";
 import ButtonTheme from "src/shared/ui/buttons/button-theme";
+import SectionUser from "src/app/_components/section-user";
+import SectionGist from "src/app/_components/section-gist";
+import SectionOrganization from "src/app/_components/section-organization";
+import SectionEvents from "src/app/_components/section-events";
+import SectionSearch from "src/app/_components/section-search";
 import LinkButton from "src/shared/ui/buttons/button-link";
 
 
@@ -58,6 +63,11 @@ export default function HomePage() {
       <Content.Title>
         Endpoints
       </Content.Title>
+      <SectionUser />
+      <SectionGist />
+      <SectionOrganization />
+      <SectionEvents />
+      <SectionSearch />
       <Content.Box className="col-span-12 ">
         <Icon className="rounded-full mx-auto flex items-center" width={"50"} height={"50"} />
       </Content.Box>
