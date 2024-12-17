@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --primary: #e7e5e4;
+    --secondary: #f4f4f4;
+    --third: #a1a1aa;
+    --black: #161616;
+  }
+
+  .dark {
+    --primary: #161616;
+    --secondary: #262626;
+    --third: #f4f4f4;
+    --black: #e7e5e4;
+  }
+}
+
+@layer base {
+  html {
+    @apply font-medium;
+  }
+
+  body {
+    @apply overflow-x-hidden;
+  }
+  
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
