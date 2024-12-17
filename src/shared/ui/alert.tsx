@@ -2,18 +2,21 @@
 
 import { AnimatePresence, motion } from "framer-motion";
 import { FormButton } from "src/shared/ui/form/form-button";
+import UtilsStore from "src/shared/utils/utils-store";
 
 
+export class AlertStore {
+  static alertStore = UtilsStore.createStoreAlert();
+}
 
 export default function Alert() {
-  const alert = {
-    isValid: false,
-    message: ''
-  }
+  const alert = AlertStore.alertStore();
 
   function handleCloseAlert(e: any) {
     e.preventDefault();
+    alert.close();
   }
+
 
   return (
     <AnimatePresence>
