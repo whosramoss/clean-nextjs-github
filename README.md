@@ -78,30 +78,33 @@ You can explore the entire data search process, layer by layer, through the grap
 </a>
 
 ## Overhead Structure View
-- [src](./src/)
-  - [app](./src/app/)
-    - [_components](./src/app/_components)
-  - [layers](./src/layers/)
-    - [application](./src/layers/application/) 
-      - [interfaces](./src/layers/application/interfaces) 
-      - [usecases](./src/layers/application/usecases) 
-    - [domain](./src/layers/domain/)
-      - [errors](./src/layers/domain/errors) 
-      - [models](./src/layers/domain/models) 
-    - [infrastructure](./src/layers/infrastructure/)
-      - [repositories](./src/layers/infrastructure/repositories) 
-      - [services](./src/layers/infrastructure/services)  
-    - [interface-adapters](./src/layers/interface-adapters/)
-      - [controllers](./src/layers/interface-adapters/controllers)  
-  - [shared](./src/shared/)
-    - [di](./src/shared/di/) - (using [ioctopus](https://github.com/Evyweb/ioctopus)  as dependency injection)
-    - [hooks](./src/shared/hooks/)
-    - [providers](./src/shared/providers/)
-    - [ui](./src/shared/ui/)
-    - [utils](./src/shared/utils/) 
-  - [tests](./src/tests/)
+```bash
+src/
+├── app/
+|     └── _components/
+├── layers/
+|     ├── application/
+|     |     └── interfaces/
+|     |     └── usecases/
+|     ├── domain/
+|     |     └── errors/
+|     |     └── models/
+|     ├── infrastructure/
+|     |     └── repositories/
+|     |     └── services/
+|     └── interface-adapters/
+|           └── controllers/
+├── app/
+|     ├── di/
+|     ├── hooks/
+|     ├── styles/
+|     ├── ui/
+|     └── utils/
+└── tests/
+```
 
-
+## Dependency injection (DI) 
+Using [ioctopus](https://github.com/Evyweb/ioctopus)
 
 ## Framework and Packages 
 - [Next.js](https://nextjs.org/) 
