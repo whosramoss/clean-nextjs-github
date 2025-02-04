@@ -127,8 +127,7 @@ Using [ioctopus](https://github.com/Evyweb/ioctopus)
 
 
 ## Contributing 
-If you want to contribute to `clean-nextjs-github`, please make sure to review the [contribution guidelines](https://github.com/whosramoss/clean-nextjs-github/blob/master/CONTRIBUTING.md). This project makes use of [GitHub issues](https://github.com/whosramoss/clean-nextjs-github/issues) for
-tracking requests and bugs.
+If you want to contribute to `clean-nextjs-github`, please make sure to review the [contribution guidelines](https://github.com/whosramoss/clean-nextjs-github/blob/master/CONTRIBUTING.md). This project makes use of [GitHub issues](https://github.com/whosramoss/clean-nextjs-github/issues) for tracking requests and bugs.
 
 ## License 
 
